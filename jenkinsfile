@@ -1,0 +1,28 @@
+pipeline {
+    agent any
+    environnement {
+      NEXUS_VERSION = "nexus3"
+        NEXUS_PROTOCOL = "http"
+        NEXUS_URL = "nexus:8081"
+        NEXUS_REPOSITORY = "maven-nexus-repo"
+        NEXUS_CREDENTIAL_ID = "nexus-user-credentials"
+    }
+    stages {
+        stage('clone') {
+          steps {
+            script '
+              git 'https://github.com/JehanneTX/usine-basic-test';
+            }
+          }
+        }
+        stage('build') {
+            steps {
+                sh 'mvn --version'
+            }
+        }
+        stage('publish to nexus'){
+          pom = readMavenPom file: "pom.xml";
+          
+        }
+    }
+}
