@@ -21,6 +21,7 @@ pipeline {
             }
         }
         stage('publish to nexus'){
+          pom = readMavenPom file: "pom.xml";
           
         }
     }
