@@ -1,2 +1,2 @@
 # usine-basic-test
-Projet java léger hello world pour tester les pipelines 
+Projet Stage de fin d'études - POC d'usine logicielle
