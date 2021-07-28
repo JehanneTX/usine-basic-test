@@ -2,7 +2,7 @@
 Projet Stage de fin d'études - POC d'usine logicielle
 
 # Structure de fichiers
-.
+`.
 ├── README.md 
 ├── fichiers_conf
 │   └── docker-compose.yml
@@ -23,7 +23,7 @@ Projet Stage de fin d'études - POC d'usine logicielle
 │                       └── demo
 │                           └── AppTest.java
 └── scripts_install
-    └── install-docker
+    └── install-docker `
 
 # Documentation
 Toute la documentation de ce projet est disponible sur l'espace Confluences suivant : https://stage-usine-logicielle.atlassian.net/wiki/spaces/UL/overview?homepageId=6914139 
