@@ -2,8 +2,8 @@
 Projet Stage de fin d'études - POC d'usine logicielle
 
 # Structure de fichiers
-. \n
-├── README.md \n
+.
+├── README.md 
 ├── fichiers_conf
 │   └── docker-compose.yml
 ├── jenkinsfile
