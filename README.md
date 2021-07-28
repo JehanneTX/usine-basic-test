@@ -26,4 +26,5 @@ Toute la documentation de ce projet est disponible sur l'espace Confluences suiv
 │                       └── demo
 │                           └── AppTest.java
 └── scripts_install
-   └── install-docker ```
+   └── install-docker 
+```
